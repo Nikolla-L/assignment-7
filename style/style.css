@@ -1,0 +1,465 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+
+@font-face {
+    font-family: Katakana;
+    src: url('https://s.cdpn.io/26175/MoonBeams-katakana_.TTF');
+}
+html{
+    background-color: black;
+}
+body{
+    height:50em;
+    float:left;
+}
+ /*---- abzacebi -----*/
+.abzaci{
+    text-indent: 20%;
+}
+.abzaci1{
+    text-indent:60%;
+}
+.abzaci2{
+    text-indent: -30%;
+}
+ /* ----vitom kodebi(grabuci klaviaturaze)---- */
+ .wrapper{
+    float:right;
+    font-family:Katakana;
+    -webkit-writing-mode: vertical-lr;
+        -ms-writing-mode: tb-lr;
+            writing-mode: vertical-lr;
+    position: absolute;
+ }
+.code{
+    width:90%;
+    margin:3% auto;
+    font-size:65%;
+    margin-left:8%;
+    -webkit-animation: green-code 9s linear infinite;
+            animation: green-code 9s linear infinite;
+    z-index:2;
+}
+.code1{
+    width:90%;
+    margin:3% auto;
+    font-size:60%;
+    line-height: 160%;
+    margin-left:7.5%;
+    -webkit-animation: green-code 10s linear infinite;
+            animation: green-code 10s linear infinite;
+    z-index: 2;
+}
+.code2{
+    width:80%;
+    margin:1% auto;
+    font-size:55%;
+    line-height: 200%;
+    margin-left:10%;
+    -webkit-animation: green-code 15s linear infinite;
+            animation: green-code 15s linear infinite;
+    z-index:3;
+}
+.code3{
+    z-index:1;
+    font-size:90%;
+    line-height: 200%;
+    margin-left:16%;
+    color:green;
+    -webkit-animation:big-sized 6s linear infinite;
+            animation:big-sized 6s linear infinite;
+}
+.code4{
+    width:90%;
+    margin:3% auto;
+    font-size:60%;
+    line-height:160%;
+    margin-left:7%;
+    -webkit-animation: green-code 3s linear infinite;
+            animation: green-code 3s linear infinite;
+    z-index:5;
+}
+.code5{
+    width:90%;
+    margin:3% auto;
+    font-size:70%;
+    line-height:180%;
+    margin-left:15%;
+    -webkit-animation: green-code 1.5s linear infinite;
+            animation: green-code 1.5s linear infinite;
+    z-index:6;
+}
+.code6{
+    width:80%;
+    margin:5% auto;
+    font-size:78%;
+    line-height:205%;
+    margin-left:10%;
+    -webkit-animation:light-rain 10s linear infinite;
+            animation:light-rain 10s linear infinite;
+    z-index:7;
+}
+.code7{
+    width:80%;
+    margin:5% auto;
+    font-size:70%;
+    line-height:210%;
+    margin-left:20%;
+    -webkit-animation:light-rain 15s linear infinite;
+            animation:light-rain 15s linear infinite;
+    z-index:8;
+}
+.code8{
+    width:80%;
+    margin:0 auto;
+    font-size:90%;
+    line-height:150%;
+    margin-left:10%;
+    -webkit-animation:green-code 20s linear infinite;
+            animation:green-code 20s linear infinite;
+    z-index:9;
+}
+.code9{
+    width:80%;
+    margin:0 auto;
+    font-size:60%;
+    line-height:150%;
+    margin-left:10%;
+    -webkit-animation:big-sized 18s linear infinite;
+            animation:big-sized 18s linear infinite;
+    z-index:10;
+}
+.code10{
+    width:80%;
+    margin:0 auto;
+    font-size:70%;
+    line-height:180%;
+    margin-left:18%;
+    -webkit-animation:dark-green 13s linear infinite;
+            animation:dark-green 13s linear infinite;
+    z-index:100000;
+}
+.code11{
+    width:80%;
+    margin:0 auto;
+    font-size:60%;
+    line-height:160%;
+    margin-left:25%;
+    -webkit-animation:green-code 19s linear infinite;
+            animation:green-code 19s linear infinite;
+    z-index:11;
+}
+.code12{
+    width:80%;
+    margin:0 auto;
+    font-size:75%;
+    line-height:140%;
+    margin-left:10%;
+    -webkit-animation:light-rain 7s linear infinite;
+            animation:light-rain 7s linear infinite;
+    z-index:12;
+}
+ /*----- Animations ------*/
+@-webkit-keyframes  green-code{
+    0%{margin-top:0; color:rgb(4, 133, 4);}
+    15%{margin-top:5%; color:rgb(20, 173, 20);}
+    25%{margin-top:10%; color:rgb(19, 233, 19)}
+    50%{margin-top:15%; color:rgb(111, 247, 111);}
+    75%{margin-top:35%; color: rgb(0, 0, 0);}
+    85%{margin-top:20%; color:black;}
+    100%{margin-top:1%;color:black;}
+}
+@keyframes  green-code{
+    0%{margin-top:0; color:rgb(4, 133, 4);}
+    15%{margin-top:5%; color:rgb(20, 173, 20);}
+    25%{margin-top:10%; color:rgb(19, 233, 19)}
+    50%{margin-top:15%; color:rgb(111, 247, 111);}
+    75%{margin-top:35%; color: rgb(0, 0, 0);}
+    85%{margin-top:20%; color:black;}
+    100%{margin-top:1%;color:black;}
+}
+@-webkit-keyframes light-rain{
+    0%{margin-top:0; color:rgb(11, 192, 11);}
+    15%{margin-top:5%; color:rgb(20, 233, 20);}
+    25%{margin-top:10%; color:rgb(117, 241, 117)}
+    50%{margin-top:15%; color:rgb(255, 255, 255);}
+    75%{margin-top:35%; color: rgb(0, 0, 0);}
+    85%{margin-top:20%; color:black;}
+    100%{margin-top:1%;color:black;}
+}
+@keyframes light-rain{
+    0%{margin-top:0; color:rgb(11, 192, 11);}
+    15%{margin-top:5%; color:rgb(20, 233, 20);}
+    25%{margin-top:10%; color:rgb(117, 241, 117)}
+    50%{margin-top:15%; color:rgb(255, 255, 255);}
+    75%{margin-top:35%; color: rgb(0, 0, 0);}
+    85%{margin-top:20%; color:black;}
+    100%{margin-top:1%;color:black;}
+}
+@-webkit-keyframes dark-green{
+    0%{margin-top:0; color:rgb(105, 194, 105);}
+    15%{margin-top:5%; color:rgb(90, 156, 90);}
+    25%{margin-top:10%; color:rgb(6, 95, 6)}
+    50%{margin-top:25%; color:rgb(6, 80, 25);}
+    75%{margin-top:45%; color: rgb(0, 0, 0);}
+    85%{margin-top:20%; color:rgb(0, 0, 0);}
+    100%{margin-top:1%;color:black;}
+}
+@keyframes dark-green{
+    0%{margin-top:0; color:rgb(105, 194, 105);}
+    15%{margin-top:5%; color:rgb(90, 156, 90);}
+    25%{margin-top:10%; color:rgb(6, 95, 6)}
+    50%{margin-top:25%; color:rgb(6, 80, 25);}
+    75%{margin-top:45%; color: rgb(0, 0, 0);}
+    85%{margin-top:20%; color:rgb(0, 0, 0);}
+    100%{margin-top:1%;color:black;}
+}
+@-webkit-keyframes aqua-code{
+    0%{margin-top:0; color:black;}
+    15%{margin-top:5%; color:rgb(11, 77, 77);}
+    25%{margin-top:10%; color:aqua;}
+    50%{margin-top:15%; color:rgb(158, 241, 241);}
+    75%{margin-top:35%; color:black;}
+    85%{margin-top:20%; color:black;}
+    100%{margin-top:1%;color:black;}
+}
+@keyframes aqua-code{
+    0%{margin-top:0; color:black;}
+    15%{margin-top:5%; color:rgb(11, 77, 77);}
+    25%{margin-top:10%; color:aqua;}
+    50%{margin-top:15%; color:rgb(158, 241, 241);}
+    75%{margin-top:35%; color:black;}
+    85%{margin-top:20%; color:black;}
+    100%{margin-top:1%;color:black;}
+}
+@-webkit-keyframes big-sized{
+    0%{margin-top:0; color:green;}
+    50%{margin-top:10%; color: rgb(3, 24, 3);}
+    70%{margin-top:12%; color:black;}
+    100%{margin-top:0; color:black;}
+}
+@keyframes big-sized{
+    0%{margin-top:0; color:green;}
+    50%{margin-top:10%; color: rgb(3, 24, 3);}
+    70%{margin-top:12%; color:black;}
+    100%{margin-top:0; color:black;}
+}
+@-webkit-keyframes big-sized-aqua{
+    0%{margin-top:0; color:aqua;}
+    50%{margin-top:10%; color:rgb(10, 71, 71);}
+    70%{margin-top:12%; color:black;}
+    100%{margin-top:0; color:black;}
+}
+@keyframes big-sized-aqua{
+    0%{margin-top:0; color:aqua;}
+    50%{margin-top:10%; color:rgb(10, 71, 71);}
+    70%{margin-top:12%; color:black;}
+    100%{margin-top:0; color:black;}
+}
+ /*--- Clickers, hovering && images-----*/
+ .property{
+    position: fixed;
+    color:black;
+    text-align: center;
+    padding-top:0.5%;
+    font-size:106%;
+    font-family: Poppins;
+    font-weight: bold;
+    height:4%;
+    width:7%;
+    float:left;
+    z-index:10000;
+    margin-left:0;
+    -webkit-transition: 1.5s;
+    -o-transition: 1.5s;
+    transition: 1.5s;
+    -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+ }
+.clicker{
+    background-color:rgb(18, 187, 187);
+    margin-top:25%;
+}
+.clicker1{
+    background-color:rgb(89, 161, 30);
+    margin-top:20%;
+}
+.clicker2{
+    background-color:white;
+    margin-top:15%;
+}
+.clicker:hover{
+    background-color:black;
+    color:rgb(64, 228, 228);
+}
+.clicker2:hover{
+    background-color: black;
+    color:white;
+}
+.clicker:hover  ~ .code,
+.clicker:hover ~ .code1,
+.clicker:hover ~ .code2{
+    -webkit-animation: aqua-code 4s linear infinite;
+            animation: aqua-code 4s linear infinite;
+}
+.clicker:hover ~ .code4,
+.clicker:hover ~ .code7,
+.clicker:hover ~ .code12{
+    -webkit-animation:aqua-code 14s linear infinite;
+            animation:aqua-code 14s linear infinite;
+}
+.clicker:hover ~ .code3,
+.clicker:hover ~ .code5,
+.clicker:hover ~ .code6,
+.clicker:hover ~ .code9{
+    -webkit-animation:big-sized-aqua 10s linear infinite;
+            animation:big-sized-aqua 10s linear infinite;
+}
+.clicker:hover ~ .code8,
+.clicker:hover ~ .code10,
+.clicker:hover ~ .code11{
+    -webkit-animation:big-sized-aqua 15s linear infinite;
+            animation:big-sized-aqua 15s linear infinite;
+}
+.clicker1:hover{
+    background-color:black;
+    color:rgb(71, 223, 71);
+}
+.clicker1:hover ~ .code,
+.clicker1:hover ~ .code1,
+.clicker1:hover ~ .code2,
+.clicker1:hover ~ .code3,
+.clicker1:hover ~ .code4,
+.clicker1:hover ~ .code5,
+.clicker1:hover ~ .code6,
+.clicker1:hover ~ .code7,
+.clicker1:hover ~ .code8,
+.clicker1:hover ~ .code9,
+.clicker1:hover ~ .code10,
+.clicker1:hover ~ .code11,
+.clicker1:hover ~ .code12{
+    -webkit-animation: none;
+            animation: none;
+    color:black;
+    z-index:0;
+}
+.img{
+    position:absolute;
+    z-index:0;
+    margin-left:20%;
+    -webkit-transition: 1.5s;
+    -o-transition: 1.5s;
+    transition: 1.5s;
+}
+.img .merli{
+    height:40em;
+    margin: 8% auto;
+}
+.img .alberta{
+    height:45em;
+    margin-top: 2%;
+}
+.img1{
+    position:absolute;
+    z-index:0;
+    margin: 1% 20%;
+    -webkit-transition: 1.4s;
+    -o-transition: 1.4s;
+    transition: 1.4s;
+}
+.img1 img{
+    height:45em;
+}
+.clicker:hover ~ .img1{
+    z-index: 1000;
+}
+.clicker2:hover ~ .img{
+    z-index:1000;
+}
+/*----- Morpheusis shetyobineba ------*/
+ 
+.morpheus{
+    margin:12% 14%;
+    position:absolute;
+}
+.morpheus1{
+    margin: 19% 14%;
+    position: absolute;
+}
+.morpheus2{
+    position:absolute;
+    margin:26% 14%
+}
+.clicker1:hover ~ .morpheus p{
+    -webkit-animation: type1  2s steps(21,end);
+            animation: type1  2s steps(21,end);
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+}
+.clicker1:hover ~  .morpheus1 p{
+    -webkit-animation:type1 2.9s  steps(25,end);
+            animation:type1 2.9s  steps(25,end);
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+.clicker1:hover ~ .morpheus2 p{
+    -webkit-animation:type1 1.8s steps(17,end), cimcima .8s step-end infinite alternate;
+            animation:type1 1.8s steps(17,end), cimcima .8s step-end infinite alternate;
+    -webkit-animation-delay: 4.9s;
+            animation-delay: 4.9s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+@-webkit-keyframes type1{
+    0%{width:0; color:rgb(16, 128, 16);
+        z-index:10001;
+        border-right: .15em solid rgb(16, 128, 16);
+        font-family: "Courier";
+        font-size: 250%;
+        white-space: nowrap;
+        overflow: hidden;
+        font-weight: bold; opacity: 0;}
+    100%{width:100%;color:rgb(16, 128, 16);
+        z-index:10001;
+        font-family: "Courier";
+        font-size: 250%;
+        white-space: nowrap;
+        overflow: hidden;
+        font-weight: bold; opacity: 1;}
+}
+@keyframes type1{
+    0%{width:0; color:rgb(16, 128, 16);
+        z-index:10001;
+        border-right: .15em solid rgb(16, 128, 16);
+        font-family: "Courier";
+        font-size: 250%;
+        white-space: nowrap;
+        overflow: hidden;
+        font-weight: bold; opacity: 0;}
+    100%{width:100%;color:rgb(16, 128, 16);
+        z-index:10001;
+        font-family: "Courier";
+        font-size: 250%;
+        white-space: nowrap;
+        overflow: hidden;
+        font-weight: bold; opacity: 1;}
+}
+@-webkit-keyframes cimcima{
+    50% {
+        border-color: tranparent;
+        border-right: .15em solid rgb(16, 128, 16);
+      }
+}
+@keyframes cimcima{
+    50% {
+        border-color: tranparent;
+        border-right: .15em solid rgb(16, 128, 16);
+      }
+}
